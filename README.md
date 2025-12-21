@@ -1,6 +1,6 @@
 # DeepSeek Paper Trading Bot
 
-This repository contains a paper-trading bot (with optional Hyperliquid mainnet execution) that runs against the Binance REST API while leveraging DeepSeek for trade decision-making. Inspired by the https://nof1.ai/ challenge. A live deployment is available at [llmtest.coininspector.pro](https://llmtest.coininspector.pro/), where you can access the dashboard and review the complete bot conversation log.
+This repository contains a paper-trading bot (with optional Hyperliquid mainnet execution) that runs against the Binance REST API while leveraging DeepSeek for trade decision-making. Inspired by the https://nof1.ai/ challenge. A live deployment is available at [trades-trend.com]([https://llmtest.coininspector.pro/](https://trades-trend.com/algotrading-what-is-it)), where you can access the dashboard and review the complete bot conversation log.
 
 The app persists its runtime data (portfolio state, AI messages, and trade history) inside a dedicated `data/` directory so it can be mounted as a volume when running in Docker.
 
@@ -373,9 +373,8 @@ Intelligence layer:
 ### 📧 Contact
 
 Questions about sponsorship? Reach out via:
-- **Email:** [kojott@gmail.com]
-- **Twitter:** [@kojott]
-- **Telegram:** [@kojottchorche]
+- **Email:** [contact@trades-trend.com]
+- **Telegram:** [@tot_gromov]
 
 ---
 
