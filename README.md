@@ -1,29 +1,8 @@
 # DeepSeek Paper Trading Bot
 
-This repository contains a paper-trading bot (with optional Hyperliquid mainnet execution) that runs against the Binance REST API while leveraging DeepSeek for trade decision-making. Inspired by the https://nof1.ai/ challenge. A live deployment is available at [trades-trend.com]([https://llmtest.coininspector.pro/](https://trades-trend.com/algotrading-what-is-it)), where you can access the dashboard and review the complete bot conversation log.
+This repository contains a paper-trading bot (with optional Hyperliquid mainnet execution) that runs against the Binance REST API while leveraging DeepSeek for trade decision-making. Inspired by the https://nof1.ai/ challenge. A live deployment is available at [trades-trend.com]([(https://trades-trend.com/algotrading-what-is-it)]), where you can access the dashboard and review the complete bot conversation log.
 
 The app persists its runtime data (portfolio state, AI messages, and trade history) inside a dedicated `data/` directory so it can be mounted as a volume when running in Docker.
-
----
-
-## 🚀 Development Roadmap
-
-**Support next-gen features through community sponsorship!** Each tier unlocks focused capabilities. Tiers must be funded in order.
-
-| Tier | Feature | Progress |
-|------|---------|----------|
-| 🔒 **Tier 1** | Hyperliquid Live Execution | **$0 / $1,000** |
-| 🔒 **Tier 2** | Emergency Controls & Monitoring | **$0 / $1,000** |
-| 🔒 **Tier 3** | Smart Position Sizing | **$0 / $1,000** |
-| 🔒 **Tier 4** | Portfolio Risk Limits | **$0 / $1,000** |
-| 🔒 **Tier 5** | Multi-LLM Support | **$0 / $1,000** |
-| 🔒 **Tier 6** | Strategy Voting System | **$0 / $1,000** |
-| 🔒 **Tier 7** | Basic Backtesting | **$0 / $1,000** |
-| 🔒 **Tier 8** | Advanced Backtesting | **$0 / $1,000** |
-| 🔒 **Tier 9** | Performance Analytics | **$0 / $1,000** |
-| 🔒 **Tier 10** | Smart Alerting & Reports | **$0 / $1,000** |
-
-💰 **Sponsor:** Send $1,000 to unlock the next tier → [Details below](#development-roadmap--sponsorship)
 
 ---
 
